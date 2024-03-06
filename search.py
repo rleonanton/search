@@ -14,7 +14,7 @@ class MiVentana(QMainWindow):
         self.setCentralWidget(self.widget_grafico)
         
         # Widgets
-        self.label_instrucciones1 = QLabel("Ingrese una self.lista_numeros de números separados por comas:", self)
+        self.label_instrucciones1 = QLabel("Ingrese una lista de números separados por comas:", self)
         self.label_instrucciones1.setGeometry(20, 360, 400, 20)
         self.label_instrucciones1.move(20, 20)
 
